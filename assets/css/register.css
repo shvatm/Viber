@@ -1,0 +1,156 @@
+html,
+body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+#background{
+	background-color: #000;
+	background-image: url(../images/b1.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#loginContainer * {
+	color: #fff;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+
+#loginContainer {
+	max-width: 1024px;
+	margin: auto;
+	width: 70%;
+	padding: 110px;
+
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+
+#inputContainer {
+	width: 50%;
+	padding: 30px;
+	float: left;
+	margin: auto;
+	border-right: 1px solid #fff;
+}
+
+#inputContainer h2 {
+	text-align: center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"] {
+	display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+#inputContainer label {
+	color: #c1c0c0;
+    font-size: medium;
+}
+
+#inputContainer button {
+	background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 500px;
+    color: whitesmoke;
+    display: block;
+    font-size: large;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 30px;
+    width: 100%;
+}
+#inputContainer button:hover {
+	cursor: pointer;
+}
+
+.hasAccountText span{
+	font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.hasAccountText {
+	text-align: center;
+}
+
+#registerForm,
+#loginForm{
+	display: none;
+}
+
+#loginText {
+	padding: 15px;
+
+}
+
+#loginText h1 {
+	color: #59e0ef;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#loginText h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+
+
+}
+
+
+#loginText ul {
+    padding: 0;
+}
+
+#loginText li {
+	list-style-type: none;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+#inputContainer .errorMessage {
+	color: #b8ecf1;
+	font-size: 12px;
+	margin-top: 15px;
+	display: block;
+}
+
+
+
+
